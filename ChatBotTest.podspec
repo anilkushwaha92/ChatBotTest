@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChatBotTest'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ChatBotTest framework a short description of for use in the iOS App.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.Add long description of the pod here.
   s.source           = { :git => 'https://github.com/anilkushwaha92/ChatBotTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'ChatBotTest/Classes/**/*'
   
