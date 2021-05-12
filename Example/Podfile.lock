@@ -1,0 +1,27 @@
+PODS:
+  - ChatBotTest (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ChatBotTest (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ChatBotTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChatBotTest: 197b8406bfe4dcb88e915489dc3071839a010d39
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 9b23824caa9a9d476e7c59da1b63e1c29aa361b1
+
+COCOAPODS: 1.10.1

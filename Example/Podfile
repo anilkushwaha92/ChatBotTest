@@ -2,6 +2,16 @@ use_frameworks!
 
 platform :ios, '9.0'
 
+platform :ios, '11.0'
+
+target 'ChatBotTest' do
+  pod 'Firebase'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'CountryList'
+  pod 'AMKeyboardFrameTracker'
+end
+
 target 'ChatBotTest_Example' do
   pod 'ChatBotTest', :path => '../'
 

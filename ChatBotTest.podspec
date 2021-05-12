@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ChatBotTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ChatBotTest.'
+  s.summary          = 'ChatBotTest framework a short description of for use in the iOS App.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long description of the pod here.Add long description of the pod here. Try to keep it short, snappy and to the point, iOSChatBot framework a short description of for use in the iOS App.
                        DESC
 
   s.homepage         = 'https://github.com/anilkushwaha92/ChatBotTest'
@@ -32,11 +32,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ChatBotTest/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ChatBotTest' => ['ChatBotTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+  'ChatBotTest' => ['ChatBotTest/Classes/**/*.{xib}']
+}
+s.exclude_files = "Classes/Exclude"
+s.swift_version = '5.0'
+s.static_framework = true
+s.dependency 'Firebase/Firestore'
+s.dependency 'FirebaseFirestoreSwift'
+s.dependency 'CountryList'
+s.dependency 'AMKeyboardFrameTracker'
 end
