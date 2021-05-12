@@ -1,8 +1,8 @@
 {
   "name": "ChatBotTest",
   "version": "0.1.0",
-  "summary": "A short description of ChatBotTest.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "ChatBotTest framework a short description of for use in the iOS App.",
+  "description": "TODO: Add long description of the pod here.Add long description of the pod here. Try to keep it short, snappy and to the point, iOSChatBot framework a short description of for use in the iOS App.",
   "homepage": "https://github.com/anilkushwaha92/ChatBotTest",
   "license": {
     "type": "MIT",
@@ -18,5 +18,28 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ChatBotTest/Classes/**/*"
+  "source_files": "ChatBotTest/Classes/**/*",
+  "resource_bundles": {
+    "ChatBotTest": [
+      "ChatBotTest/Classes/**/*.{xib}"
+    ]
+  },
+  "exclude_files": "Classes/Exclude",
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "dependencies": {
+    "Firebase/Firestore": [
+
+    ],
+    "FirebaseFirestoreSwift": [
+
+    ],
+    "CountryList": [
+
+    ],
+    "AMKeyboardFrameTracker": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }
